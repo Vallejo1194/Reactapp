@@ -31,28 +31,27 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>Skills</h2>
-              <p>
-                Please review my skillset. I'm proficient in all areas of the
-                FullStack Curriculum.<br></br> I can also design your website
-                and Logo.
+              <h2>Skill set</h2>
+              <p>asfkdjbcsanlmsjdvhcbkxn skdzcxb sa
+                <br></br> sdijhcdjaklvdghscajkxnxdhjscbx
               </p>
               <Carousel
+            interval={2000}
                 responsive={responsive}
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
                   <img src={meter1} alt="Web Development" />
-                  <h5>Web Development</h5>
+                  <h5>Web pages</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Brand" />
-                  <h5>Brand Identity</h5>
+                  <h5>Solutions</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Logo" />
-                  <h5>Logo Design</h5>
+                  <h5>Web facilities</h5>
                 </div>
               </Carousel>
             </div>
