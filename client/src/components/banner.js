@@ -14,7 +14,7 @@ export const Banner = () => {
               {"David Vallejo."}
               <h1 className="wrap">{toRotate}</h1>
             </h1>
-            <p> Born in Monterrey, NL dedicated to International logistics and studying become a fullstack developer</p>
+            <p> Born in Monterrey, NL dedicated to International logistics and studying to become a fullstack developer.</p>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={Wimage} alt="Header Img" />
