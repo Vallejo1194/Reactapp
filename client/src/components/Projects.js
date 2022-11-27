@@ -12,11 +12,13 @@ export const Projects = () => {
       title: "HTML",
       description: "*",
       imgUrl: projImg4,
+
     },
     {
       title: "CSS",
       description: "*",
       imgUrl: projImg4,
+
     },
     {
       title: "JS",
