@@ -11,7 +11,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <h3 className="tagLine">Welcome to my React portafolio</h3>
             <h1>
-              {"My name is David..."}
+              {"David Vallejo."}
               <h1 className="wrap">{toRotate}</h1>
             </h1>
             <p> Born in Monterrey, NL dedicated to International logistics and studying become a fullstack developer</p>

@@ -1,6 +1,4 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
@@ -42,16 +40,16 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Web Development" />
-                  <h5>Web pages</h5>
+                 
+                  <h5>Front-End</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Brand" />
-                  <h5>Solutions</h5>
+                 
+                  <h5>Back-End</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Logo" />
-                  <h5>Web facilities</h5>
+                 
+                  <h5>Web-Skills</h5>
                 </div>
               </Carousel>
             </div>
