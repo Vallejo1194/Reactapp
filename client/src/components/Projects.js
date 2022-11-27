@@ -1,8 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/World.jpeg"
 
 
 import "animate.css";
@@ -11,34 +9,34 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
-      title: "*",
+      title: "HTML",
       description: "*",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
-      title: "*",
+      title: "CSS",
       description: "*",
-      imgUrl: projImg2,
+      imgUrl: projImg4,
     },
     {
-      title: "*",
+      title: "JS",
       description: "*",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
     },
     {
-      title: "*",
-      description: "*",
-      imgUrl: projImg1,
+      title: "MYSQL",
+      description: "MYSQL",
+      imgUrl: projImg4,
     },
     {
-      title: "*",
+      title: "MONGO",
       description: "*",
-      imgUrl: projImg2,
+      imgUrl: projImg4,
     },
     {
-      title: "*",
+      title: "REACT",
       description: "*",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
     },
   ];
 
